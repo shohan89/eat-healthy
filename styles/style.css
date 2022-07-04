@@ -1,7 +1,10 @@
 body{
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
 }
-.header{
+
+/* Header Section */
+.flexContent{
   display: flex;
   align-items: center;
   margin-bottom: 100px;
@@ -10,8 +13,13 @@ body{
   width: 50%;
   margin-left: 3%;
 }
-div img{
-  width: 80%;
+.headImage img{
+  width: 100%;
+}
+.aboutImage img{
+  width: 60%;
+  margin-left: 30%;
+  padding-top: 100px;
 }
 
 h1 {
@@ -49,4 +57,25 @@ p {
   -webkit-text-fill-color: transparent; 
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
+}
+/* Header section End */
+.aboutMe {
+  background-image: url("../images/shapes/7.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutContent{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+h2 {
+  font-size: 40px;
+  color: #828282;
+  font-weight: bold;
+}
+.aboutText {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 90px;
 }
