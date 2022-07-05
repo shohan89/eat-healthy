@@ -116,9 +116,36 @@ h2 {
 .recipieTitle {
   font-size: 28px;
   font-weight: 900;
+  color: #18191F;
 }
 .recipieDesc {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.4;
+}
+
+/* Information Section  */
+.infoItems {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  box-shadow: 0px 4px 40px #0000004d;
+  /* margin-bottom: 100px; */
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 40px 80px;
+}
+.infoItem {
+  margin-bottom: 100px;
+}
+.infoTitle {
+  font-size: 48px;
+  color: #18191F;
+  margin-bottom: -5px;
+  font-weight: bold;
+}
+.infoText {
+  font-size: 16px;
+  font-weight: 400;
+  color: #18191F;
 }
