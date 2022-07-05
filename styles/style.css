@@ -59,6 +59,8 @@ p {
   -moz-text-fill-color: transparent;
 }
 /* Header section End */
+
+/* About Me Section */
 .aboutMe {
   background-image: url("../images/shapes/7.png");
   background-position: center center;
@@ -78,4 +80,45 @@ h2 {
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 90px;
+}
+
+/* My Recipie  */
+.recipieHeadline {
+  text-align: center;
+}
+.recipieHead {
+  font-size: 36px;
+  font-weight: bold;
+}
+.recipieText {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 136%;
+}
+.recipieCard {
+  display: flex;
+  margin-bottom: 100px;
+
+}
+.singleRecipie {
+  width: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0px 4px 40px #0000004d;
+  /* border: 5px solid #1d1d1d; */
+  border-radius: 30px;
+  padding: 20px;
+
+}
+.singleRecipie img {
+  width: 100%;
+}
+.recipieTitle {
+  font-size: 28px;
+  font-weight: 900;
+}
+.recipieDesc {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
 }
